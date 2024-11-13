@@ -1,14 +1,12 @@
 * {
     font-family: "Roboto", "sans-serif";
-    font-weight: 400;
-    font-style: normal;
 }
 
 .header {
     font-size: 24px;
     color: #E5E7EB;
     display: flex;
-    padding: 0px 0px 70px 0px;
+    padding: 0 0 70px 0;
     height: 20px;
 }
 
@@ -22,10 +20,9 @@
 ul {
     list-style-type: none;
     display: flex;
-    flex-direction: row;
+    justify-content: flex-end;
     flex: auto;
     margin: 0;
-    justify-content: flex-end;
     gap: 16px;
 }
 
@@ -44,17 +41,16 @@ a {
 }
 
 .left-half {
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-gap: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 26px;
 }
 
 .hero-heading {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-    display: flex;
 }
 
 .hero-text {
@@ -76,9 +72,9 @@ button {
 
 
 .right-half {
-display: flex;
-justify-content: flex-end;
-align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .left-half,
@@ -92,7 +88,6 @@ img {
 }
 
 .hero-logo {
-    display: flex;
     padding-top: 16px;
 }
 
@@ -100,10 +95,7 @@ img {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-bottom: 40px;
-    padding-top: 40px;
+    padding: 40px 300px;
     display: flex;
     justify-content: center;
 }
@@ -116,20 +108,20 @@ img {
 }
 
 .wrapper {
-display: flex;
-justify-content: center;
-flex-direction: column;
-text-align: center;
-width: 120px;
-padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 120px;
+    padding-bottom: 60px;
 }
 
 .box {
-border: 2px solid #3882F6;
-background-color: white;
-height: 120px;
-width: 120px;
-border-radius: 8px;
+    border: 2px solid #3882F6;
+    background-color: white;
+    height: 120px;
+    width: 120px;
+    border-radius: 8px;
 }
 
 .box img {
@@ -139,12 +131,8 @@ border-radius: 8px;
 
 .quote-section {
     background-color: #E5E7EB;
-    font-family: "Roboto", "sans-serif";
     display: flex;
-    padding-left: 420px;
-    padding-right: 420px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 420px;
     justify-content: center;
     flex-direction: column;
     line-height: 1.5;
@@ -164,7 +152,7 @@ border-radius: 8px;
     font-weight: 600;
     font-size: 28px;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     align-items: flex-end;
 }
 
@@ -174,10 +162,7 @@ border-radius: 8px;
     display: flex;
     padding-left: 100px;
     padding-right: 100px;
-    margin-left: 310px;
-    margin-right: 310px;
-    margin-top: 75px;
-    margin-bottom: 75px;
+    margin: 75px 310px;
     height: 100px;
 }
 
@@ -195,7 +180,6 @@ border-radius: 8px;
 .subinfo {
     font-weight: 200;
     font-size: 18px;
-
 }
 
 .rightside {
@@ -215,7 +199,7 @@ border-radius: 8px;
     border: 2px solid white;
     width: 130px;
     text-align: center;
-    vertical-align: center;
+    vertical-align: central;
     border-radius: 4px;
     padding: 6px 10px;
 }
